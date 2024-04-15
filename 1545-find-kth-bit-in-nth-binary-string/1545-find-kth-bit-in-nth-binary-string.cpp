@@ -5,7 +5,7 @@ public:
     int cnt=1;
     void solve(int n){
         if(cnt==n){
-            return ;
+            return  ;
         }
         string ans1=ans;
         for(int i=0;i<ans1.size();i++){
