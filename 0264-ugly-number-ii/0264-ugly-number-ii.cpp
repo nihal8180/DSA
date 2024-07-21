@@ -27,7 +27,7 @@ public:
                 pq.push(three);
                 st.insert(three);
             } 
-            if(five<=INT_MAX && st.find(top*5)==st.end()){
+            if(five<=INT_MAX && st.find(five)==st.end()){
                 pq.push(five);
                 st.insert(five);
             }
